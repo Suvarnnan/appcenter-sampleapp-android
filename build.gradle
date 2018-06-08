@@ -16,9 +16,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven {	    google()
-          url 'https://maven.google.com/'	
-       name 'Google'	
+        google()
        }
     }
 }
